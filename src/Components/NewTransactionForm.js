@@ -47,6 +47,7 @@ function NewTransactionForm(props) {
 
         <InputGroup>
           <Form.Control
+            id="amount"
             value={transaction.amount}
             type="number"
             onChange={changeStuff}
